@@ -53,6 +53,7 @@ if (task.id === id){
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Todo List</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <input onChange={handleInputChange}/>
         {inputValue}
